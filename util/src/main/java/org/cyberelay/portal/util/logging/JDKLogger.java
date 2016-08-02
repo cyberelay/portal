@@ -20,16 +20,6 @@ package org.cyberelay.portal.util.logging;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- * 
- * <ul>
- * <li>Creation Date: Jul 13, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 507 $
- * <li>Last Update Time: $Date: 2008-02-13 14:17:14 +0000 (Wed, 13 Feb 2008) $
- * </ul>
- * 
- */
 class JDKLogger implements org.cyberelay.portal.util.logging.Logger {
 	public Logger logger;
 

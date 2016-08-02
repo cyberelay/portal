@@ -21,13 +21,6 @@ import org.cyberelay.portal.service.PortalApplicationService;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Feb 1, 2008
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 560 $
- * <li>Last Update Time: $Date: 2008-02-25 09:17:58 +0000 (Mon, 25 Feb 2008) $
- * </ul>
- * 
  */
 public interface LegacyPortletInvocationService extends PortalApplicationService {
 

@@ -26,13 +26,6 @@ import org.cyberelay.portal.PortalURL;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Feb 29, 2008
- * <li>Last Editor: $Author$
- * <li>Current Revision: $Revision$
- * <li>Last Update Time: $Date$
- * </ul>
- * 
  */
 class ResourceURLImpl extends BaseURLImpl implements ResourceURL {
 	public static final String CACHE = "cache";

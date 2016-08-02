@@ -32,13 +32,6 @@ import org.cyberelay.portletcontainer.PortletInvocationRequest;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 625 $
- * <li>Last Update Time: $Date: 2008-03-07 04:36:51 +0000 (Fri, 07 Mar 2008) $
- * </ul>
- * 
  */
 public class EventRequestImpl extends PortletRequestImpl implements EventRequest {
 

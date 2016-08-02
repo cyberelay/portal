@@ -32,13 +32,6 @@ import org.cyberelay.portletcontainer.service.PortletContainerServiceProvider;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jul 2, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 577 $
- * <li>Last Update Time: $Date: 2008-02-26 14:40:54 +0000 (Tue, 26 Feb 2008) $
- * </ul>
- * 
  */
 public class ConfigurationPortletContainerServiceProvider implements
 		PortletContainerServiceProvider {

@@ -39,13 +39,6 @@ import org.cyberelay.portlet.descriptor.model.PortletNameType;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Feb 27, 2008
- * <li>Last Editor: $Author$
- * <li>Current Revision: $Revision$
- * <li>Last Update Time: $Date$
- * </ul>
- * 
  */
 class FilterDescription {
 	private static final String ACTION_PHASE = "ACTION_PHASE";

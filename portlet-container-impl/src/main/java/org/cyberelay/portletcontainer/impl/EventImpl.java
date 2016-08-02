@@ -27,13 +27,6 @@ import org.cyberelay.portal.util.Assert;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 622 $
- * <li>Last Update Time: $Date: 2008-03-05 09:43:16 +0000 (Wed, 05 Mar 2008) $
- * </ul>
- * 
  */
 class EventImpl implements Event {
 	private QName qname;

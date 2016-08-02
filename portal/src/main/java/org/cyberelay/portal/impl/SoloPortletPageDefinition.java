@@ -33,13 +33,6 @@ import org.cyberelay.portal.PortletWindowDefinition;
  * 
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Mar 19, 2008
- * <li>Last Editor: $Author$
- * <li>Current Revision: $Revision$
- * <li>Last Update Time: $Date$
- * </ul>
- * 
  */
 public class SoloPortletPageDefinition implements PageDefinition {
 

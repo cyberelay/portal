@@ -32,13 +32,7 @@ import org.cyberelay.portletcontainer.PortletContainer;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Mar 21, 2008
- * <li>Last Editor: $Author$
- * <li>Current Revision: $Revision$
- * <li>Last Update Time: $Date$
- * </ul>
- * 
+ *
  */
 public final class PortalRequestUtil implements PortalConstants {
 

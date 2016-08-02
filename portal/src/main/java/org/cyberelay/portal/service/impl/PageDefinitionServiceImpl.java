@@ -36,13 +36,6 @@ import org.cyberelay.portal.util.logging.LoggerFactory;
 /**
  * @author Terry Li
  * 
- * <ul>
- * <li>Creation Date: 2007-7-14
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 684 $
- * <li>Last Update Time: $Date: 2008-03-23 10:24:06 +0000 (Sun, 23 Mar 2008) $
- * </ul>
- * 
  */
 public class PageDefinitionServiceImpl extends AbstractPortalApplicationService implements
 		PageDefinitionService {

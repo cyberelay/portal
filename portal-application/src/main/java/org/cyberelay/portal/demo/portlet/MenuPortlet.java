@@ -28,13 +28,6 @@ import javax.portlet.RenderResponse;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Aug 14, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 648 $
- * <li>Last Update Time: $Date: 2008-03-14 07:28:53 +0000 (Fri, 14 Mar 2008) $
- * </ul>
- * 
  */
 public class MenuPortlet extends BasePortlet {
 

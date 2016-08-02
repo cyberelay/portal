@@ -38,13 +38,6 @@ import org.w3c.dom.Element;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jul 1, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 624 $
- * <li>Last Update Time: $Date: 2008-03-06 13:58:04 +0000 (Thu, 06 Mar 2008) $
- * </ul>
- * 
  */
 abstract class PortletResponseImpl extends HttpServletResponseWrapper implements
 		PortletResponse,

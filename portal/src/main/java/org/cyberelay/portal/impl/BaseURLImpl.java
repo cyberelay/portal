@@ -30,13 +30,6 @@ import org.cyberelay.portal.PortalURL;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jul 18, 2007
- * <li>Last Editor: $Author:losingant $
- * <li>Current Revision: $Revision:541 $
- * <li>Last Update Time: $Date:2008-02-25 11:42:40 +0800 (Mon, 25 Feb 2008) $
- * </ul>
- * 
  */
 abstract class BaseURLImpl implements BaseURL {
 	protected PortalURL portalURL;

@@ -32,13 +32,6 @@ import org.cyberelay.portlet.descriptor.model.PortletAppType;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Mar 11, 2008
- * <li>Last Editor: $Author$
- * <li>Current Revision: $Revision$
- * <li>Last Update Time: $Date$
- * </ul>
- * 
  */
 class ListenerConfig  extends AbstractConfig {
 	private static Logger LOG = LoggerFactory.getLogger(ListenerConfig.class);

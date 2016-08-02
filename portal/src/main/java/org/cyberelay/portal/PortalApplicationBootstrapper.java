@@ -29,13 +29,7 @@ import org.cyberelay.portletcontainer.PortletContainerException;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 611 $
- * <li>Last Update Time: $Date: 2008-03-02 14:49:21 +0000 (Sun, 02 Mar 2008) $
- * </ul>
- * 
+ *
  */
 public class PortalApplicationBootstrapper implements ServletContextListener, PortalConstants {
 	private static final Logger LOG = LoggerFactory.getLogger(PortalApplicationBootstrapper.class);

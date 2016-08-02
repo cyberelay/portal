@@ -26,7 +26,7 @@ import org.cyberelay.portletcontainer.PortletContainer;
  * PortalApplication is an abstraction of a concept commonly referred as
  * <i>Portal</i> as defined in Portlet Specification 2.0
  * 
- * <blockquote> A portal is a web based application that –commonly- provides
+ * <blockquote> A portal is a web based application that ï¿½commonly- provides
  * personalization, 5 authentication, content aggregation from different sources
  * and hosts the presentation layer of information systems. Aggregation is the
  * action of integrating content from different sources within a web page. A
@@ -41,13 +41,7 @@ import org.cyberelay.portletcontainer.PortletContainer;
  * 
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jul 6, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 666 $
- * <li>Last Update Time: $Date: 2008-03-18 10:15:24 +0000 (Tue, 18 Mar 2008) $
- * </ul>
- * 
+ *
  */
 public interface PortalApplication {
 

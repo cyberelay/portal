@@ -38,13 +38,6 @@ import org.cyberelay.portletcontainer.PortletWindow;
  * 
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Feb 22, 2008
- * <li>Last Editor: $Author:losingant $
- * <li>Current Revision: $Revision:541 $
- * <li>Last Update Time: $Date:2008-02-25 11:42:40 +0800 (Mon, 25 Feb 2008) $
- * </ul>
- * 
  */
 class NavigationStateImpl implements NavigationState, PortalConstants {
 	private static final String[] EMPTY_STRINGS = new String[0];

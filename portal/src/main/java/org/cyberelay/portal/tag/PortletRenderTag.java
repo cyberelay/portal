@@ -27,13 +27,6 @@ import org.cyberelay.portletcontainer.PortletContainerException;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 662 $
- * <li>Last Update Time: $Date: 2008-03-18 05:14:59 +0000 (Tue, 18 Mar 2008) $
- * </ul>
- * 
  */
 public class PortletRenderTag extends PortletControlTag {
 

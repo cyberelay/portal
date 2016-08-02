@@ -28,13 +28,6 @@ import org.cyberelay.portletcontainer.PortletContainerConstants;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Aug 10, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 649 $
- * <li>Last Update Time: $Date: 2008-03-14 10:52:03 +0000 (Fri, 14 Mar 2008) $
- * </ul>
- * 
  */
 public class PortletTagSupport extends TagSupport implements PortletContainerConstants {
 	private static final long serialVersionUID = -4646449409754702372L;

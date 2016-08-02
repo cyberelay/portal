@@ -37,13 +37,6 @@ import org.cyberelay.portletcontainer.PortletContainerConstants;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Aug 6, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 603 $
- * <li>Last Update Time: $Date: 2008-03-01 12:34:16 +0000 (Sat, 01 Mar 2008) $
- * </ul>
- * 
  */
 class PortletRequest2ServletRequestAdapter extends HttpServletRequestWrapper implements
 		PortletContainerConstants {

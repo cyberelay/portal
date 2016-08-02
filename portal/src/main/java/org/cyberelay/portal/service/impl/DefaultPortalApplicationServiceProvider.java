@@ -34,13 +34,6 @@ import org.cyberelay.portal.util.logging.LoggerFactory;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jul 11, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 655 $
- * <li>Last Update Time: $Date: 2008-03-17 09:26:12 +0000 (Mon, 17 Mar 2008) $
- * </ul>
- * 
  */
 public class DefaultPortalApplicationServiceProvider implements PortalApplicationServiceProvider {
 	private static final Logger LOG =

@@ -24,13 +24,6 @@ import org.cyberelay.portal.annotation.ServiceTag;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jul 10, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 678 $
- * <li>Last Update Time: $Date: 2008-03-21 03:31:15 +0000 (Fri, 21 Mar 2008) $
- * </ul>
- * 
  */
 @ServiceTag(defaultImpl = "org.cyberelay.portal.service.impl.PortalURLServiceImpl")
 public interface PortalURLService extends PortalApplicationService {

@@ -28,13 +28,6 @@ import org.cyberelay.portal.aggregation.RequestProcessChain;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Feb 1, 2008
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 611 $
- * <li>Last Update Time: $Date: 2008-03-02 14:49:21 +0000 (Sun, 02 Mar 2008) $
- * </ul>
- * 
  */
 public abstract class AbstractBranchOutNode extends GenericProcessNode implements BranchOutNode {
 	private RequestProcessChain branch;

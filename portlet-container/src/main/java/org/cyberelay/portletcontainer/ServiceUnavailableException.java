@@ -20,13 +20,6 @@ package org.cyberelay.portletcontainer;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 431 $
- * <li>Last Update Time: $Date: 2008-02-02 08:14:51 +0000 (Sat, 02 Feb 2008) $
- * </ul>
- * 
  */
 public class ServiceUnavailableException extends PortletContainerServiceException {
 

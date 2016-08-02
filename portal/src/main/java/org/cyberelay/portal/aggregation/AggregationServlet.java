@@ -38,13 +38,6 @@ import org.cyberelay.portal.util.logging.LoggerFactory;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 680 $
- * <li>Last Update Time: $Date: 2008-03-21 13:49:47 +0000 (Fri, 21 Mar 2008) $
- * </ul>
- * 
  */
 public class AggregationServlet extends HttpServlet implements Servlet, PortalConstants {
 	private static final String REQUEST_PROCESS_CHAIN = "portal.request.process.chain";

@@ -27,13 +27,6 @@ import javax.servlet.http.HttpSessionContext;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Mar 1, 2008
- * <li>Last Editor: $Author$
- * <li>Current Revision: $Revision$
- * <li>Last Update Time: $Date$
- * </ul>
- * 
  */
 class PortletSession2HttpSessionAdapter implements HttpSession {
 	private static final int PORTLET_SCOPE = PortletSession.PORTLET_SCOPE;

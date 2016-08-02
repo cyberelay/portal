@@ -28,13 +28,6 @@ import org.cyberelay.portal.annotation.ServiceTag;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author:losingant $
- * <li>Current Revision: $Revision:83 $
- * <li>Last Update Time: $Date:2007-07-10 09:07:04 +0800 (Tue, 10 Jul 2007) $
- * </ul>
- * 
  */
 @ServiceTag(defaultImpl = "org.cyberelay.portal.service.impl.PageDefinitionServiceImpl")
 public interface PageDefinitionService extends PortalApplicationService {

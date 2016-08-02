@@ -29,13 +29,6 @@ import org.cyberelay.portal.service.PortalURLService;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 653 $
- * <li>Last Update Time: $Date: 2008-03-15 03:21:50 +0000 (Sat, 15 Mar 2008) $
- * </ul>
- * 
  */
 public class LogoutTag extends PortalTagSupport {
 

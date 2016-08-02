@@ -22,13 +22,6 @@ import java.util.Iterator;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jul 2, 2007 
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 362 $
- * <li>Last Update Time: $Date: 2008-01-16 11:50:45 +0000 (Wed, 16 Jan 2008) $
- * </ul>
- * 
  */
 public interface ServiceConfig {
 	

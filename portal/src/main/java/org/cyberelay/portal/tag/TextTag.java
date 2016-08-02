@@ -26,13 +26,6 @@ import java.util.ResourceBundle;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 507 $
- * <li>Last Update Time: $Date: 2008-02-13 14:17:14 +0000 (Wed, 13 Feb 2008) $
- * </ul>
- * 
  */
 public class TextTag extends PortalTagSupport {
 	private String bundle;

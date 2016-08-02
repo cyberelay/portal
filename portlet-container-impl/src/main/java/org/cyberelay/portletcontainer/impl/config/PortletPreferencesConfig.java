@@ -45,13 +45,6 @@ import org.cyberelay.portlet.descriptor.model.ValueType;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Mar 13, 2008
- * <li>Last Editor: $Author$
- * <li>Current Revision: $Revision$
- * <li>Last Update Time: $Date$
- * </ul>
- * 
  */
 class PortletPreferencesConfig extends AbstractConfig {
 	private static final Logger LOG = LoggerFactory.getLogger(PortletPreferencesConfig.class);

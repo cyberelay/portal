@@ -25,13 +25,6 @@ import org.cyberelay.portletcontainer.PortletInvocationRequest;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jul 2, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 596 $
- * <li>Last Update Time: $Date: 2008-02-29 04:21:27 +0000 (Fri, 29 Feb 2008) $
- * </ul>
- * 
  */
 public class RequestHandlerRegistry {
 	private static RequestHandlerRegistry INSTANCE;

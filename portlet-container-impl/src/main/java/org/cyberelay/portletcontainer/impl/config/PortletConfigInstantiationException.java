@@ -22,13 +22,6 @@ import javax.portlet.PortletException;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Feb 28, 2008 
- * <li>Last Editor: $Author$
- * <li>Current Revision: $Revision$
- * <li>Last Update Time: $Date$
- * </ul>
- * 
  */
 public class PortletConfigInstantiationException extends PortletException {
 

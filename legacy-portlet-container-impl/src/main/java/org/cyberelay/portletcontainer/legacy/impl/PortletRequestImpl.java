@@ -53,13 +53,6 @@ import org.cyberelay.portletcontainer.legacy.service.UserInfoService;
  * 
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jan 21, 2008
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 678 $
- * <li>Last Update Time: $Date: 2008-03-21 03:31:15 +0000 (Fri, 21 Mar 2008) $
- * </ul>
- * 
  */
 public class PortletRequestImpl extends HttpServletRequestWrapper implements
 		PortletRequest,

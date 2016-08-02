@@ -24,13 +24,6 @@ import java.lang.annotation.Target;
 /**
  * @author Terry Li
  * 
- * <ul>
- * <li>Creation Date: Jul 6, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 535 $
- * <li>Last Update Time: $Date: 2008-02-24 10:06:14 +0000 (Sun, 24 Feb 2008) $
- * </ul>
- * 
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)

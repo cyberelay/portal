@@ -24,13 +24,6 @@ import org.cyberelay.portlet.descriptor.model.PortletType;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Mar 14, 2008
- * <li>Last Editor: $Author$
- * <li>Current Revision: $Revision$
- * <li>Last Update Time: $Date$
- * </ul>
- * 
  */
 abstract class AbstractConfig {
 

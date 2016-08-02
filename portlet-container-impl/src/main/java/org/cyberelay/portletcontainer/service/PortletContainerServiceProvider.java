@@ -23,13 +23,6 @@ import org.cyberelay.portletcontainer.ServiceUnavailableException;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jul 2, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 492 $
- * <li>Last Update Time: $Date: 2008-02-12 14:08:23 +0000 (Tue, 12 Feb 2008) $
- * </ul>
- * 
  */
 public interface PortletContainerServiceProvider {
 

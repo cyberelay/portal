@@ -24,13 +24,6 @@ import javax.servlet.ServletContext;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jul 15, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 575 $
- * <li>Last Update Time: $Date: 2008-02-26 10:28:50 +0000 (Tue, 26 Feb 2008) $
- * </ul>
- * 
  */
 public interface PortletApplication {
 

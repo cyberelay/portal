@@ -19,13 +19,6 @@ package org.cyberelay.portletcontainer;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Mar 7, 2008
- * <li>Last Editor: $Author$
- * <li>Current Revision: $Revision$
- * <li>Last Update Time: $Date$
- * </ul>
- * 
  */
 public class PortletContainerRuntimeException extends RuntimeException {
 

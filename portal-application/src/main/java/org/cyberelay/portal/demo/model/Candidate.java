@@ -18,7 +18,7 @@
 package org.cyberelay.portal.demo.model;
 
 /**
- * @author losingant
+ * @author Roger Tang
  *  
  */
 public class Candidate {

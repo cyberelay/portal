@@ -26,13 +26,6 @@ import javax.xml.namespace.QName;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jul 6, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 644 $
- * <li>Last Update Time: $Date: 2008-03-13 09:22:51 +0000 (Thu, 13 Mar 2008) $
- * </ul>
- * 
  */
 public final class PortletContainerInfo {
 	private static final Set<String> SUPPORTED_RUNTIME_OPTIONS;

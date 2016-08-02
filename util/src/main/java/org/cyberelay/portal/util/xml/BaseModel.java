@@ -19,13 +19,6 @@ package org.cyberelay.portal.util.xml;
 /**
  * @author Terry Li
  * 
- * <ul>
- * <li>Creation Date: Jul 10, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 507 $
- * <li>Last Update Time: $Date: 2008-02-13 14:17:14 +0000 (Wed, 13 Feb 2008) $
- * </ul>
- * 
  */
 public abstract class BaseModel implements Model{
 	

@@ -26,13 +26,6 @@ import org.cyberelay.portal.service.ServiceInitializationException;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jul 10, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 682 $
- * <li>Last Update Time: $Date: 2008-03-22 02:17:09 +0000 (Sat, 22 Mar 2008) $
- * </ul>
- * 
  */
 public class PortalURLServiceImpl extends AbstractPortalApplicationService implements
 		PortalURLService {

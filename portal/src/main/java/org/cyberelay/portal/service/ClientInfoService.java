@@ -25,13 +25,6 @@ import org.cyberelay.portal.annotation.ServiceTag;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jul 21, 2007 
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 377 $
- * <li>Last Update Time: $Date: 2008-01-17 07:35:03 +0000 (Thu, 17 Jan 2008) $
- * </ul>
- * 
  */
 @ServiceTag(defaultImpl = "org.cyberelay.portal.service.impl.ClientInfoServiceImpl")
 public interface ClientInfoService extends PortalApplicationService {

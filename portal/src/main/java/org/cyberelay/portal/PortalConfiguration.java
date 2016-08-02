@@ -22,13 +22,7 @@ import java.util.Iterator;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 656 $
- * <li>Last Update Time: $Date: 2008-03-17 09:39:17 +0000 (Mon, 17 Mar 2008) $
- * </ul>
- * 
+ *
  */
 public interface PortalConfiguration {
 	

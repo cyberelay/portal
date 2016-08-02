@@ -32,13 +32,6 @@ import org.cyberelay.portlet.descriptor.model.PortletType;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Mar 12, 2008
- * <li>Last Editor: $Author$
- * <li>Current Revision: $Revision$
- * <li>Last Update Time: $Date$
- * </ul>
- * 
  */
 class MimeTypeSupportConfig extends AbstractConfig {
 	private static final String TEXT_HTML = "text/html";

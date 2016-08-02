@@ -20,10 +20,6 @@ import java.util.Set;
 import java.util.StringTokenizer;
 import java.util.TreeSet;
 
-/**
- * @author Roger Tang
- * 
- */
 public abstract class StringUtil {
 
 	private static final String[] EMPTY_STRING_ARRAY = new String[0];

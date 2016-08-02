@@ -37,13 +37,6 @@ import org.cyberelay.portletcontainer.PortletContainerException;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 677 $
- * <li>Last Update Time: $Date: 2008-03-20 15:22:28 +0000 (Thu, 20 Mar 2008) $
- * </ul>
- * 
  */
 public class PortalApplicationImpl implements PortalApplication, PortalConstants {
 

@@ -24,7 +24,7 @@ import java.util.Properties;
 import org.cyberelay.portal.util.PropertiesUtil;
 
 /**
- * @author losingant
+ * @author Roger Tang
  * 
  */
 public class CandidateStore {

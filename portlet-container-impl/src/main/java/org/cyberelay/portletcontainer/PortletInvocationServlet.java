@@ -38,13 +38,6 @@ import org.cyberelay.portletcontainer.impl.PortletInvocationRequestImpl;
  * 
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 596 $
- * <li>Last Update Time: $Date: 2008-02-29 04:21:27 +0000 (Fri, 29 Feb 2008) $
- * </ul>
- * 
  */
 public class PortletInvocationServlet extends HttpServlet implements PortletContainerConstants {
 	private static final Logger LOG = LoggerFactory.getLogger(PortletInvocationServlet.class);

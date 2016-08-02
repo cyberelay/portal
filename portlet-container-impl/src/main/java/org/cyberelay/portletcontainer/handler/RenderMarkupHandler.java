@@ -31,13 +31,6 @@ import org.cyberelay.portletcontainer.impl.RenderResponseImpl;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 27, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 627 $
- * <li>Last Update Time: $Date: 2008-03-08 06:57:00 +0000 (Sat, 08 Mar 2008) $
- * </ul>
- * 
  */
 class RenderMarkupHandler extends AbstractHandler {
 

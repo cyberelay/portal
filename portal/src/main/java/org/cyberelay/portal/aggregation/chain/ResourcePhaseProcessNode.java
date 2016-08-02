@@ -32,13 +32,6 @@ import org.cyberelay.portletcontainer.PortletWindow;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jul 9, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 562 $
- * <li>Last Update Time: $Date: 2008-02-25 09:38:55 +0000 (Mon, 25 Feb 2008) $
- * </ul>
- * 
  */
 public class ResourcePhaseProcessNode extends GenericProcessNode implements RequestProcessNode {
 	private static final Logger LOG = LoggerFactory.getLogger(ResourcePhaseProcessNode.class);

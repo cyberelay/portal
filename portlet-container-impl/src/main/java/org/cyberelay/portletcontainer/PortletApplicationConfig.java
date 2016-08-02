@@ -29,13 +29,6 @@ import org.cyberelay.portlet.PortletConfigEx;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jan 18, 2008
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 633 $
- * <li>Last Update Time: $Date: 2008-03-11 07:39:59 +0000 (Tue, 11 Mar 2008) $
- * </ul>
- * 
  */
 public interface PortletApplicationConfig {
 

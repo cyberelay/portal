@@ -45,13 +45,6 @@ import org.cyberelay.portal.util.logging.LoggerFactory;
  * 
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 665 $
- * <li>Last Update Time: $Date: 2008-03-18 06:47:18 +0000 (Tue, 18 Mar 2008) $
- * </ul>
- * 
  */
 public class PreparationProcessNode extends GenericProcessNode {
 	private static final Logger LOG = LoggerFactory.getLogger(PreparationProcessNode.class);

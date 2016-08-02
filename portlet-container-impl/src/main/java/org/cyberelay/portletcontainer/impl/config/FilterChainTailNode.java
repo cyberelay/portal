@@ -40,13 +40,6 @@ import org.cyberelay.portletcontainer.PortletInvocationRequest;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Feb 13, 2008
- * <li>Last Editor: $Author:losingant $
- * <li>Current Revision: $Revision:587 $
- * <li>Last Update Time: $Date:2008-02-28 15:47:46 +0800 (Thu, 28 Feb 2008) $
- * </ul>
- * 
  */
 class FilterChainTailNode implements FilterChain, PortletContainerConstants {
 

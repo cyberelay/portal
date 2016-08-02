@@ -37,13 +37,7 @@ import java.util.Map;
  * 
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 609 $
- * <li>Last Update Time: $Date: 2008-03-02 12:34:27 +0000 (Sun, 02 Mar 2008) $
- * </ul>
- * 
+ *
  */
 public interface PortalURL {
 

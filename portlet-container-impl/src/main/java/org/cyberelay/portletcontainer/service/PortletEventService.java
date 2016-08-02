@@ -26,13 +26,6 @@ import org.cyberelay.portletcontainer.PortletWindow;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Mar 3, 2008
- * <li>Last Editor: $Author$
- * <li>Current Revision: $Revision$
- * <li>Last Update Time: $Date$
- * </ul>
- * 
  */
 @ServiceTag(defaultImpl = "org.cyberelay.portletcontainer.service.impl.PortletEventServiceImpl")
 public interface PortletEventService extends PortletContainerService {

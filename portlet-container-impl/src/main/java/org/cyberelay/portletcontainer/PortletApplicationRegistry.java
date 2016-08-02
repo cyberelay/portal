@@ -25,13 +25,6 @@ import java.util.Map;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 29, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 652 $
- * <li>Last Update Time: $Date: 2008-03-15 02:53:49 +0000 (Sat, 15 Mar 2008) $
- * </ul>
- * 
  */
 public class PortletApplicationRegistry {
 	private static Map<String, PortletApplication> registry;

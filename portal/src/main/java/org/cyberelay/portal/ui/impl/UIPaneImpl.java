@@ -22,13 +22,6 @@ import org.cyberelay.portal.ui.UIPane;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jul 9, 2007
- * <li>Last Editor: $Author: jxszlh $
- * <li>Current Revision: $Revision: 527 $
- * <li>Last Update Time: $Date: 2008-02-22 02:24:01 +0000 (Fri, 22 Feb 2008) $
- * </ul>
- * 
  */
 public abstract class UIPaneImpl extends AbstractUIComponent implements UIPane, Comparable {
 	private int ordinal;

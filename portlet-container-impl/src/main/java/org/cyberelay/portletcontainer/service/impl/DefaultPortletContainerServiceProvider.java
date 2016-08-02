@@ -31,13 +31,6 @@ import org.cyberelay.portletcontainer.ServiceUnavailableException;
 /**
  * @author Terry Li
  * 
- * <ul>
- * <li>Creation Date: Jul 6, 2007
- * <li>Last Editor: $Author:losingant $
- * <li>Current Revision: $Revision:173 $
- * <li>Last Update Time: $Date:2007-07-16 15:35:20 +0800 (Mon, 16 Jul 2007) $
- * </ul>
- * 
  */
 public class DefaultPortletContainerServiceProvider {
 	private static final Logger LOG =

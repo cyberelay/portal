@@ -23,13 +23,6 @@ import javax.portlet.MimeResponse;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jul 21, 2007 
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 498 $
- * <li>Last Update Time: $Date: 2008-02-12 14:21:51 +0000 (Tue, 12 Feb 2008) $
- * </ul>
- * 
  */
 public class CacheControlImpl implements CacheControl {
 	private MimeResponse response;

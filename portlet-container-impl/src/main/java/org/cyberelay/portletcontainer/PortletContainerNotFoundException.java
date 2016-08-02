@@ -22,13 +22,6 @@ import javax.servlet.ServletException;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 28, 2007 
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 496 $
- * <li>Last Update Time: $Date: 2008-02-12 14:17:01 +0000 (Tue, 12 Feb 2008) $
- * </ul>
- * 
  */
 public class PortletContainerNotFoundException extends ServletException {
 	

@@ -41,13 +41,6 @@ import org.cyberelay.portletcontainer.PortletWindow;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jul 1, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 666 $
- * <li>Last Update Time: $Date: 2008-03-18 10:15:24 +0000 (Tue, 18 Mar 2008) $
- * </ul>
- * 
  */
 abstract class PortletRequestImpl extends HttpServletRequestWrapper implements
 		PortletRequest,

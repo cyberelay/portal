@@ -30,13 +30,6 @@ import org.cyberelay.portal.util.logging.LoggerFactory;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 562 $
- * <li>Last Update Time: $Date: 2008-02-25 09:38:55 +0000 (Mon, 25 Feb 2008) $
- * </ul>
- * 
  */
 public class RenderPhaseProcessNode extends GenericProcessNode {
 	private static final Logger LOG = LoggerFactory.getLogger(RenderPhaseProcessNode.class);

@@ -31,13 +31,6 @@ import org.cyberelay.portletcontainer.impl.ActionResponseImpl;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 27, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 604 $
- * <li>Last Update Time: $Date: 2008-03-01 13:08:04 +0000 (Sat, 01 Mar 2008) $
- * </ul>
- * 
  */
 class ProcessActionHandler extends AbstractHandler {
 

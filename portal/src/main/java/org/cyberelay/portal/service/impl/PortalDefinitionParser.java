@@ -54,13 +54,6 @@ import org.xml.sax.SAXException;
 /**
  * @author Terry Li
  * 
- * <ul>
- * <li>Creation Date: 2007-7-14
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 671 $
- * <li>Last Update Time: $Date: 2008-03-19 08:02:24 +0000 (Wed, 19 Mar 2008) $
- * </ul>
- * 
  */
 class PortalDefinitionParser {
 	private static final Logger LOG = LoggerFactory.getLogger(PortalDefinitionParser.class);

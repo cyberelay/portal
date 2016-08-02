@@ -29,13 +29,6 @@ import org.cyberelay.portal.ui.UIPane;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 674 $
- * <li>Last Update Time: $Date: 2008-03-19 14:09:23 +0000 (Wed, 19 Mar 2008) $
- * </ul>
- * 
  */
 public class UIContainerImpl extends UIPaneImpl implements ContainerPane {
 	

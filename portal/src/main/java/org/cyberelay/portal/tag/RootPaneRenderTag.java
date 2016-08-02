@@ -22,13 +22,6 @@ import org.cyberelay.portal.ui.UIComponent;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jul 12, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 650 $
- * <li>Last Update Time: $Date: 2008-03-14 23:06:57 +0800 (Fri, 14 Mar 2008) $
- * </ul>
- * 
  */
 public class RootPaneRenderTag extends UIComponentRenderTag {
 

@@ -34,13 +34,6 @@ import org.w3c.dom.Element;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 613 $
- * <li>Last Update Time: $Date: 2008-03-03 03:41:46 +0000 (Mon, 03 Mar 2008) $
- * </ul>
- * 
  */
 public class ActionResponseImpl extends PortletResponseImpl implements ActionResponse {
 

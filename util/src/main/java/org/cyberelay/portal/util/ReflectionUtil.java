@@ -21,13 +21,6 @@ import java.lang.reflect.Method;
 /**
  * @author Terry Li
  * 
- * <ul>
- * <li>Creation Date: Feb 25, 2008
- * <li>Last Editor: $Author$
- * <li>Current Revision: $Revision$
- * <li>Last Update Time: $Date$
- * </ul>
- * 
  */
 public class ReflectionUtil {
 

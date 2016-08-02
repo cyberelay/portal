@@ -27,7 +27,7 @@ import org.cyberelay.portal.demo.model.Candidate;
 import org.cyberelay.portal.demo.model.CandidateStore;
 
 /**
- * @author losingant
+ * @author Roger Tang
  * 
  */
 public class ContentPortlet extends BasePortlet {

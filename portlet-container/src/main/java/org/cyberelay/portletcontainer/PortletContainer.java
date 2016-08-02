@@ -37,13 +37,6 @@ import javax.servlet.http.HttpServletResponse;
  * 
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 617 $
- * <li>Last Update Time: $Date: 2008-03-03 10:04:07 +0000 (Mon, 03 Mar 2008) $
- * </ul>
- * 
  */
 public interface PortletContainer {
 

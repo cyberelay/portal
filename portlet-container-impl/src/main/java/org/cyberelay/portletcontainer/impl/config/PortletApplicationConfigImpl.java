@@ -41,13 +41,6 @@ import org.cyberelay.portletcontainer.PortletApplicationConfig;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jul 22, 2007
- * <li>Last Editor: $Author:losingant $
- * <li>Current Revision: $Revision:631 $
- * <li>Last Update Time: $Date:2008-03-11 09:55:23 +0800 (Tue, 11 Mar 2008) $
- * </ul>
- * 
  */
 public class PortletApplicationConfigImpl implements PortletApplicationConfig {
 	private static String DESCRIPTOR_PACKAGE_NAME = "org.cyberelay.portlet.descriptor.model";

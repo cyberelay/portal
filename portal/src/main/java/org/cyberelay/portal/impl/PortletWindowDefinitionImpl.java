@@ -23,13 +23,6 @@ import org.cyberelay.portal.util.Assert;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 668 $
- * <li>Last Update Time: $Date: 2008-03-18 14:18:57 +0000 (Tue, 18 Mar 2008) $
- * </ul>
- * 
  */
 public class PortletWindowDefinitionImpl extends AbstractPortletWindowDefinition {
 

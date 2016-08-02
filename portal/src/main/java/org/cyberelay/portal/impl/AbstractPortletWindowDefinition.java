@@ -45,13 +45,6 @@ import org.cyberelay.portletcontainer.PortletApplicationRegistry;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Mar 18, 2008
- * <li>Last Editor: $Author$
- * <li>Current Revision: $Revision$
- * <li>Last Update Time: $Date$
- * </ul>
- * 
  */
 public abstract class AbstractPortletWindowDefinition implements
 		PortletWindowDefinition,

@@ -25,13 +25,6 @@ import org.cyberelay.portletcontainer.PortletInvocationRequest;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Feb 25, 2008
- * <li>Last Editor: $Author$
- * <li>Current Revision: $Revision$
- * <li>Last Update Time: $Date$
- * </ul>
- * 
  */
 class PortletRequestAttributeManager {
 	private PortletInvocationRequest request;

@@ -41,13 +41,6 @@ import org.cyberelay.portletcontainer.service.impl.ConfigurationPortletContainer
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 27, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 623 $
- * <li>Last Update Time: $Date: 2008-03-06 10:18:29 +0000 (Thu, 06 Mar 2008) $
- * </ul>
- * 
  */
 public class PortletContainerImpl implements PortletContainer, PortletContainerConstants {
 

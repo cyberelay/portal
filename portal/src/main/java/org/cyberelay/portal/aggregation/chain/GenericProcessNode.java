@@ -37,13 +37,6 @@ import org.cyberelay.portletcontainer.PortletContainer;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 684 $
- * <li>Last Update Time: $Date: 2008-03-23 10:24:06 +0000 (Sun, 23 Mar 2008) $
- * </ul>
- * 
  */
 public abstract class GenericProcessNode implements RequestProcessNode, PortalConstants {
 	private PortalApplication portal;

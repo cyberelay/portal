@@ -25,13 +25,6 @@ import javax.servlet.jsp.tagext.VariableInfo;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 650 $
- * <li>Last Update Time: $Date: 2008-03-14 15:06:57 +0000 (Fri, 14 Mar 2008) $
- * </ul>
- * 
  */
 public class PortletTitleTag extends PortletControlTag {
 	private static final long serialVersionUID = -3472688293458412804L;

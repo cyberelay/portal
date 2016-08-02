@@ -33,13 +33,6 @@ import org.cyberelay.portal.util.PropertiesUtil;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 658 $
- * <li>Last Update Time: $Date: 2008-03-18 02:35:08 +0000 (Tue, 18 Mar 2008) $
- * </ul>
- * 
  */
 public class PortalConfigurationImpl implements PortalConfiguration {
 	/* Default configuration property file. */

@@ -37,13 +37,6 @@ import org.cyberelay.portal.util.ReflectionUtil;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jul 1, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 666 $
- * <li>Last Update Time: $Date: 2008-03-18 10:15:24 +0000 (Tue, 18 Mar 2008) $
- * </ul>
- * 
  */
 public class PortalContextExImpl implements PortalContextEx {
 	private PortalApplication application;

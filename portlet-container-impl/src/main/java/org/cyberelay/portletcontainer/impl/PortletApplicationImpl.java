@@ -31,13 +31,6 @@ import org.cyberelay.portletcontainer.impl.config.PortletApplicationConfigImpl;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jul 12, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 634 $
- * <li>Last Update Time: $Date: 2008-03-11 10:08:09 +0000 (Tue, 11 Mar 2008) $
- * </ul>
- * 
  */
 public class PortletApplicationImpl implements PortletApplication, PortletContainerConstants {
 	private ServletContext servletContext;

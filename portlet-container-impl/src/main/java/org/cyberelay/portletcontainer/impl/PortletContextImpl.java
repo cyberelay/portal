@@ -33,13 +33,6 @@ import org.cyberelay.portletcontainer.PortletContainerInfo;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jul 1, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 638 $
- * <li>Last Update Time: $Date: 2008-03-13 04:19:56 +0000 (Thu, 13 Mar 2008) $
- * </ul>
- * 
  */
 public class PortletContextImpl implements PortletContext {
 	private PortletApplication application;

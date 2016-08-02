@@ -26,13 +26,6 @@ import org.cyberelay.portletcontainer.PortletInvocationRequest;
 /**
  * @author Roger Tang
  * 
- * <ul>
- * <li>Creation Date: Jun 25, 2007
- * <li>Last Editor: $Author: losingant $
- * <li>Current Revision: $Revision: 626 $
- * <li>Last Update Time: $Date: 2008-03-07 10:35:00 +0000 (Fri, 07 Mar 2008) $
- * </ul>
- * 
  */
 public class RenderRequestImpl extends PortletRequestImpl implements RenderRequest {
 
