@@ -1,0 +1,78 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  
+  <parent>
+    <artifactId>cyberelay-portal</artifactId>
+    <groupId>org.cyberelay.portal</groupId>
+    <version>1.0.0</version>
+  </parent>
+  
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>portal-application</artifactId>
+  <packaging>war</packaging>
+  <name>Portal Application</name>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>codehaus snapshot repository</id>
+			<url>http://snapshots.repository.codehaus.org/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+		</pluginRepository>
+	</pluginRepositories>
+	
+  <dependencies>
+    <dependency>
+      <groupId>org.cyberelay.portal</groupId>
+      <artifactId>portal-portletContainer-integration</artifactId>
+      <version>${pom.version}</version>
+      <scope>compile</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.cyberelay.portal</groupId>
+      <artifactId>portal-legacyContainer-integration</artifactId>
+      <version>${pom.version}</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>org.cyberelay.portal</groupId>
+      <artifactId>portal</artifactId>
+      <version>${pom.version}</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+	
+	<build>
+		<finalName>portal</finalName>
+
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.cargo</groupId>
+				<artifactId>cargo-maven2-plugin</artifactId>
+				<version>0.3-SNAPSHOT</version>
+				<configuration>
+					<container>
+						<containerId>jetty6x</containerId>
+						<type>embedded</type>
+						<dependencies> 
+							<dependency> 
+								<location>.\src\main\config</location> 
+							</dependency> 
+						</dependencies> 
+					</container>
+					<configuration>
+						<properties>
+							<cargo.servlet.port>
+								8080
+							</cargo.servlet.port>
+						</properties>
+					</configuration>
+				</configuration>
+			</plugin>
+		</plugins>
+
+	</build>
+	
+</project>

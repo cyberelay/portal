@@ -1,0 +1,5 @@
+
+description = 'Portal/PortletContainer Integration'
+dependencies {
+  compile project(':portal')
+}

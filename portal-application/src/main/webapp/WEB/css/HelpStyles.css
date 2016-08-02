@@ -1,0 +1,62 @@
+
+.help        {  font-size: medium; background-color:#ffffff; color:#000000; }
+
+.help_indent {  font-size: medium; background-color:#ffffff; color:#000000; }
+
+a.help { color: #333399; }
+
+a:visited.help { color: #333399; }
+
+a:active.help { color: #333399; }
+
+a:hover.help { color: #6699CC; }
+
+samp.help {font-family:monospace;font-size: medium;}
+
+h2.help { font-size: xx-large; text-align:left; color:#ffffff;
+     margin-top:-5; margin-right:-5; margin-bottom:8; margin-left:-5; 
+     background-color:#8956a4; padding-left:44;  height:36; padding-top:22;
+     font-weight: bold; border-bottom:1 solid #000000; } 
+     
+h3.help   { margin: 16 -5 10 20; background-color:#8956a4; padding-left:8; font-weight: bold;
+            height:24; padding-top:3; color:#ffffff; font-size: x-large;  }
+
+h3 a.help { font-size: x-large; color:#ffffff; background-color:#8956a4; } 
+
+h4.help   { text-align:left; color:#ffffff; margin: 16 -5 10 20; font-size: large; font-weight: normal; font-style: italic; 
+            background-color:#8956a4; padding-left:8; padding-top:3; height:20; }
+
+h4 a.help   { font-size: large; font-weight: normal; font-style: italic; color:#ffffff;background-color:#8956a4; }
+
+p.help      { padding-top:4; margin-top:2; margin-left:30; margin-right:20; padding-bottom:0; margin-bottom:0; }
+
+ul.help   { margin-left:54; margin-right:20; }
+ol.help   { margin-left:54; margin-right:20; }
+dl.help   { margin-left:36; margin-right:20; }
+
+<!-- New in v5 -->
+p.help_indent  { padding-top:4; margin-top:2; margin-left:0; margin-right:0; padding-bottom:0; margin-bottom:0; }
+ul.help_indent   { margin-left:0; margin-right:0; }
+ol.help_indent   { margin-left:0; margin-right:0; }
+dl.help_indent   { margin-left:0; margin-right:0; }
+
+dt a.help { font-weight: bold; color:#000000; }
+
+dd.help { padding-top:2; padding-bottom:20; }
+
+li.help { padding-top:2; padding-bottom:2; }
+
+table.help  { padding-left:30 padding-right:20; margin-left:30; }
+pre.help    { font-family: monospace; margin-left:30; }
+dd p.help { padding-top:4; margin-top:2; margin-left:0; margin-right:o; padding-bottom:0; margin-bottom:0;  }
+
+<!-- New in v5 -->
+table.help_indent  { padding-left:0; padding-right:0; margin-left:0; }
+pre.help_indent    { font-family: monospace; margin-left:0; }
+
+/* table td.help  { padding:8; } */
+
+th.help { text-align:left; padding-top:3; padding-bottom:3; vertical-align:top; }
+td.help { text-align:left; padding-top:3; padding-bottom:3; vertical-align:top; }
+
+

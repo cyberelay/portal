@@ -1,0 +1,5 @@
+
+description = 'Portal Descriptor Parsing API'
+dependencies {
+  compile project(':util')
+}

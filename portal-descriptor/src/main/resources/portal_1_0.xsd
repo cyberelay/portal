@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:portal="http://www.cyberelay.org/xml/ns/portal/portal-def_1_0.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.cyberelay.org/xml/ns/portal/portal-def_1_0.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0" xml:lang="en">
+	<import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/xml.xsd"/>
+	
+
+    <element name="portal-def" type="portal:portal-defType"></element>
+
+    <complexType name="portal-defType">
+    	<sequence>
+    		<element name="template" type="portal:templateType"
+    			maxOccurs="unbounded" minOccurs="1">
+    		</element>
+    		<element name="portlet-context"
+    			type="portal:portlet-contextType" minOccurs="1"
+    			maxOccurs="unbounded">
+    		</element>
+    		<element name="portlet-window"
+    			type="portal:portlet-windowType" minOccurs="0"
+    			maxOccurs="unbounded">
+    		</element>
+    		<element name="page" type="portal:pageType" minOccurs="1" maxOccurs="unbounded"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="templateType">
+    	<sequence>
+    		<element name="markup" type="portal:markupType" maxOccurs="unbounded"></element>
+    	</sequence>
+    	<attribute name="unique-id" type="string" use="required"></attribute>
+    </complexType>
+
+    <complexType name="themeType">
+    	<sequence>
+    		<element name="root-container-pane" type="portal:container-paneType" minOccurs="1" maxOccurs="1"></element>
+    	</sequence>
+    	<attribute name="template-ref" type="string" use="required"></attribute>
+    </complexType>
+
+    <complexType name="portlet-contextType">
+    	<attribute name="unique-id" type="string" use="required"></attribute>
+    	<attribute name="context-path" type="string" use="required"></attribute>
+    </complexType>
+
+    <complexType name="portlet-windowType">
+    	<attribute name="unique-id" type="string" use="required"></attribute>
+    	<attribute name="portlet-name" type="string" use="required"></attribute>
+    	<attribute name="portlet-context-ref" type="string" use="required"></attribute>
+    </complexType>
+
+    <complexType name="pageType">
+    	<sequence>
+
+    		<element name="theme" type="portal:themeType" minOccurs="1" maxOccurs="1"></element>
+
+    	</sequence>
+    	<attribute name="unique-id" type="string" use="required"></attribute>
+    	<attribute name="active" type="boolean" use="optional"></attribute>
+    </complexType>
+
+    <complexType name="markupType">
+
+    	<attribute name="name" type="string" use="required"></attribute>
+    	<attribute name="path" type="string" use="required"></attribute>
+    </complexType>
+
+
+
+    
+
+    <complexType name="container-paneType">
+    	<sequence>
+    		<element name="container-pane"
+    			type="portal:container-paneType" minOccurs="0"
+    			maxOccurs="unbounded">
+    		</element>
+    		<element name="portlet-pane" type="portal:portlet-paneType"
+    			minOccurs="0" maxOccurs="unbounded">
+    		</element>
+    	</sequence>
+    	<attribute name="template-ref" type="string" use="required"></attribute>
+    	<attribute name="active" type="boolean" use="optional"></attribute>
+    	<attribute name="ordinal" type="int" use="optional"></attribute>
+    	<attribute name="width" type="string" use="optional"></attribute>
+    	<attribute name="orientation" use="optional">
+    		<simpleType>
+    			<restriction base="string">
+    				<enumeration value="H"></enumeration>
+    				<enumeration value="V"></enumeration>
+    				<enumeration value="vertical"></enumeration>
+    				<enumeration value="horizontal"></enumeration>
+    			</restriction>
+    		</simpleType>
+    	</attribute>
+    </complexType>
+
+    <complexType name="portlet-paneType">
+        <choice>
+        	<element name="portlet-window"
+        		type="portal:portlet-windowType">
+        	</element>
+        	<element name="portlet-window-ref" type="portal:portlet-window-refType"></element>
+        </choice>
+    	<attribute name="template-ref" type="string" use="required"></attribute>
+    	<attribute name="active" type="boolean" use="optional"></attribute>
+    	<attribute name="ordinal" type="int" use="optional"></attribute>
+    	<attribute name="width" type="string" use="optional"></attribute>
+    </complexType>
+    
+
+    <complexType name="portlet-window-refType">
+    	<attribute name="ref-id" type="string" use="required"></attribute>
+    </complexType>
+
+
+    <attribute name="template-ref" type="string"></attribute>
+
+</schema>

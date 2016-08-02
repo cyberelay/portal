@@ -1,0 +1,5 @@
+
+description = 'Portal/Legacy PortletContainer Integration'
+dependencies {
+  compile project(':portal')
+}

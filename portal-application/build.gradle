@@ -1,0 +1,9 @@
+
+apply plugin: 'war'
+
+description = 'Portal Application'
+dependencies {
+  compile project(':portal-portletContainer-integration')
+  compile project(':portal-legacyContainer-integration')
+  compile project(':portal')
+}

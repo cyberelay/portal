@@ -1,0 +1,40 @@
+allprojects  {
+  apply plugin: 'maven'
+
+  group = 'org.cyberelay.portal'
+  version = '1.0.0'
+}
+
+subprojects {
+  apply plugin: 'java'
+  sourceCompatibility = 1.5
+  targetCompatibility = 1.5
+
+  
+  repositories {
+    mavenLocal()
+    
+    maven { url "http://repo.maven.apache.org/maven2" }
+  }
+
+  
+  dependencies {
+    compile group: 'xalan', name: 'xalan', version:'2.7.0'
+    compile group: 'javax.xml.bind', name: 'jsr173_api', version:'1.0'
+    compile group: 'javax.xml.bind', name: 'activation', version:'1.0.2'
+    compile group: 'javax.xml.bind', name: 'jaxb-api', version:'2.0'
+    compile group: 'com.sun.xml.bind', name: 'jaxb-impl', version:'2.0.3'
+    compile(group: 'javax.servlet', name: 'jsp-api', version:'2.0') {
+       /* This dependency was originally in the Maven provided scope, but the project was not of type war.
+       This behavior is not yet supported by Gradle, so this dependency has been converted to a compile dependency.
+       Please review and delete this closure when resolved. */
+    }
+    compile(group: 'javax.servlet', name: 'servlet-api', version:'2.5') {
+       /* This dependency was originally in the Maven provided scope, but the project was not of type war.
+       This behavior is not yet supported by Gradle, so this dependency has been converted to a compile dependency.
+       Please review and delete this closure when resolved. */
+    }
+}
+
+  
+}

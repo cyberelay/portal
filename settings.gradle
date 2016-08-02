@@ -1,0 +1,26 @@
+rootProject.name = 'cyberelay-portal'
+include ':jetspeed-portlet-api'
+include ':jsr286-portlet-api'
+include ':portal'
+include ':portal-portletContainer-integration'
+include ':portal-legacyContainer-integration'
+include ':portal-descriptor'
+include ':portal-application'
+include ':portlet-container'
+include ':portlet-container-impl'
+include ':legacy-portlet-container-impl'
+include ':portlet-descriptor'
+include ':util'
+
+project(':jetspeed-portlet-api').projectDir = "$rootDir/jetspeed-portlet-api" as File
+project(':jsr286-portlet-api').projectDir = "$rootDir/jsr286-portlet-api" as File
+project(':portal').projectDir = "$rootDir/portal" as File
+project(':portal-portletContainer-integration').projectDir = "$rootDir/portal-portletContainer-integration" as File
+project(':portal-legacyContainer-integration').projectDir = "$rootDir/portal-legacyContainer-integration" as File
+project(':portal-descriptor').projectDir = "$rootDir/portal-descriptor" as File
+project(':portal-application').projectDir = "$rootDir/portal-application" as File
+project(':portlet-container').projectDir = "$rootDir/portlet-container" as File
+project(':portlet-container-impl').projectDir = "$rootDir/portlet-container-impl" as File
+project(':legacy-portlet-container-impl').projectDir = "$rootDir/legacy-portlet-container-impl" as File
+project(':portlet-descriptor').projectDir = "$rootDir/portlet-descriptor" as File
+project(':util').projectDir = "$rootDir/util" as File

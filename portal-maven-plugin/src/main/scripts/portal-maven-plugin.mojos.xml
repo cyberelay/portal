@@ -1,0 +1,11 @@
+<pluginMetadata>
+  <mojos>
+    <mojo>
+      <goal>DeoployInTomcat6x</goal>
+      <call>DeployPortal</call>
+      <description>
+        Deploy Portal Application In Tomcat6x.
+      </description>
+    </mojo>
+  </mojos>
+</pluginMetadata>

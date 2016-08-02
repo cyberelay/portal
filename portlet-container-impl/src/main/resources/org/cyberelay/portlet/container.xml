@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container>
+	<!-- services>
+		<service
+			interface="org.cyberelay.portlet.spi.PortletApplicationService"
+			implementation="org.cyberelay.portlet.spi.impl.PortletApplicationServiceImpl">
+			<name>Portlet Application Service</name>
+		</service>
+		<service
+			interface="org.cyberelay.portlet.spi.PortletPreferencesService"
+			implementation="org.cyberelay.portlet.spi.impl.PortletPreferencesServiceImpl">
+			<name>Window State Service</name>
+			<parameters>
+				<parameter name="" value="" />
+				<parameter name="" value="" />
+			</parameters>
+		</service>
+		<service
+			interface="org.cyberelay.portlet.spi.PortletURLService"
+			implementation="org.cyberelay.portlet.spi.impl.PortletURLServiceImpl">
+			<name>Window State Service</name>
+		</service>
+		<service
+			interface="org.cyberelay.portlet.spi.ServletContextService"
+			implementation="org.cyberelay.portlet.spi.impl.ServletContextServiceImpl">
+			<name>Window State Service</name>
+		</service>
+		<service
+			interface="org.cyberelay.portlet.spi.PortletWindowService"
+			implementation="org.cyberelay.portlet.spi.impl.PortletWindowServiceImpl">
+			<name>Window State Service</name>
+			<parameters>
+				<parameter name="" value="" />
+				<parameter name="" value="" />
+			</parameters>
+		</service>
+	</services -->
+</container>

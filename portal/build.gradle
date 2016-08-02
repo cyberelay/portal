@@ -1,0 +1,7 @@
+
+description = 'Portal'
+dependencies {
+  compile project(':portlet-container-impl')
+  compile project(':portal-descriptor')
+  compile project(':legacy-portlet-container-impl')
+}

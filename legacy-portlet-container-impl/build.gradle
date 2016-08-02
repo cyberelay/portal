@@ -1,0 +1,6 @@
+
+description = 'Legacy Portlet Container Implementation'
+dependencies {
+  compile project(':jetspeed-portlet-api')
+  compile project(':portlet-container')
+}

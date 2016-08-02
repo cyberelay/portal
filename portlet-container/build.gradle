@@ -1,0 +1,6 @@
+
+description = 'Portlet Container'
+dependencies {
+  compile project(':jsr286-portlet-api')
+  compile project(':util')
+}

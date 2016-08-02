@@ -1,0 +1,51 @@
+1. Maven project built-in property names:
+${project.name}
+${project.version}
+${project.build.finalName}
+
+NOTE: java system properties can be treated as built-in properties as well.
+
+2. How to filter property tokens defined in the resources
+	(put the following in pow.xml)
+	<project>
+		...
+		<build>
+			<resources>
+				<resource>
+					<directory>src/main/resources</directory>
+					<filtering>true</filtering>
+				</resource>
+			</resources>
+		</build>
+		...
+	</project>
+	
+3. Define an external property file.
+	<build>
+		<filters>
+			<filter>src/main/filters/EXTERNAL_PROPERTY.properties</filter>
+		</filters>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
+	</build>
+	
+4. How to see a final result for a target POM
+	mvn help:effective-pom
+	
+5. How to specify a version range for a given dependency?
+	<dependency>
+		<groupId>org.codehaus.plexus</groupId>
+		<artifactId>plexus-utils</artifactId>
+		<version>[1.1,)</version>
+	</dependency>
+	
+	Range Meaning
+			   (,1.0] Less than or equal to 1.0
+			[1.2,1.3] Between 1.2 and 1.3 (inclusive)
+			[1.0,2.0) Greater than or equal to 1.0, but less than 2.0
+			   [1.5,) Greater than or equal to 1.5
+	(,1.1),(1.1,) Any version, except 1.1
